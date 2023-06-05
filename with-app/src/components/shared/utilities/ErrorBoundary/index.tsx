@@ -1,28 +1,25 @@
+'use-client';
+
+import React, { ReactNode } from 'react';
 import { ErrorBoundary, ErrorBoundaryProps } from 'react-error-boundary';
-import React from 'react';
 
 type ErrorFallbackProps = {
     error: { message: string };
-    resetError: () => void;
 };
 
-function ErrorFallback({ error, resetError }: ErrorFallbackProps) {
+function ErrorFallback({ error }: ErrorFallbackProps) {
     return (
         <div role="alert">
             <div>Что-то пошло не так:</div>
 
-            <pre>{error.message}</pre>
-
-            <button type="button" onClick={resetError}>
-                Попробовать еще
-            </button>
+            <pre style={{ color: 'red' }}>{error.message}</pre>
         </div>
     );
 }
 
-function Boundary({ children, fallback, onError, onReset }: ErrorBoundaryProps) {
+function Boundary({ children, onError, onReset }: { children: ReactNode } & ErrorBoundaryProps) {
     return (
-        <ErrorBoundary fallback={fallback ?? ErrorFallback} onError={onError} onReset={onReset}>
+        <ErrorBoundary FallbackComponent={ErrorFallback} onError={onError} onReset={onReset}>
             {children}
         </ErrorBoundary>
     );

@@ -1,0 +1,101 @@
+{
+    "departments": [
+        {
+            "departmentId": 1,
+            "displayName": "American Decorative Arts",
+            "disabled": true
+        },
+        {
+            "departmentId": 3,
+            "displayName": "Ancient Near Eastern Art",
+            "disabled": true
+        },
+        {
+            "departmentId": 4,
+            "displayName": "Arms and Armor",
+            "disabled": true
+        },
+        {
+            "departmentId": 5,
+            "displayName": "Arts of Africa, Oceania, and the Americas",
+            "disabled": true
+        },
+        {
+            "departmentId": 6,
+            "displayName": "Asian Art",
+            "disabled": true
+        },
+        {
+            "departmentId": 7,
+            "displayName": "The Cloisters",
+            "disabled": true
+        },
+        {
+            "departmentId": 8,
+            "displayName": "The Costume Institute",
+            "disabled": true
+        },
+        {
+            "departmentId": 9,
+            "displayName": "Drawings and Prints",
+            "disabled": true
+        },
+        {
+            "departmentId": 10,
+            "displayName": "Egyptian Art",
+            "disabled": true
+        },
+        {
+            "departmentId": 11,
+            "displayName": "European Paintings",
+            "disabled": false,
+            "image": "https://images.unsplash.com/photo-1465339433205-a615409ea200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "departmentId": 12,
+            "displayName": "European Sculpture and Decorative Arts",
+            "disabled": true
+        },
+        {
+            "departmentId": 13,
+            "displayName": "Greek and Roman Art",
+            "disabled": true
+        },
+        {
+            "departmentId": 14,
+            "displayName": "Islamic Art",
+            "disabled": true
+        },
+        {
+            "departmentId": 15,
+            "displayName": "The Robert Lehman Collection",
+            "disabled": true
+        },
+        {
+            "departmentId": 16,
+            "displayName": "The Libraries",
+            "disabled": true
+        },
+        {
+            "departmentId": 17,
+            "displayName": "Medieval Art",
+            "disabled": true
+        },
+        {
+            "departmentId": 18,
+            "displayName": "Musical Instruments",
+            "disabled": true
+        },
+        {
+            "departmentId": 19,
+            "displayName": "Photographs",
+            "disabled": false,
+            "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+        },
+        {
+            "departmentId": 21,
+            "displayName": "Modern Art",
+            "disabled": true
+        }
+    ]
+}

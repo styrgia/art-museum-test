@@ -23,12 +23,12 @@ const nextConfig = {
 
     experimental: {
         webpackBuildWorker: true,
-        typedRoutes: true,
         serverActions: true,
     },
 
     images: {
-        formats: ["image/avif", "image/webp"],
+        formats: ['image/avif', 'image/webp'],
+        domains: ['images.unsplash.com', 'images.metmuseum.org'],
         disableStaticImages: true,
         dangerouslyAllowSVG: true,
         contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
@@ -104,7 +104,5 @@ const isProduction =
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true',
 });
-
-
 
 module.exports = isProduction ? nextConfig : withBundleAnalyzer(nextConfig);
